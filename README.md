@@ -5,6 +5,7 @@ Collection of skill definitions used by this workspace. Each skill lives in its 
 ## Available skills
 - `git-commit-assistant/`: Generate high-quality conventional git commit messages and, with approval, run commits. See `git-commit-assistant/SKILL.md` for the workflow and `git-commit-assistant/references/commit_rules.md` for the full commit rules.
 - `debug-logging-assistant/`: Add meaningful debug logs without changing behavior. See `debug-logging-assistant/SKILL.md` and `debug-logging-assistant/references/logging_rules.md` for logging guidelines.
+- `code-review-assistant/`: Perform structured Python code reviews. See `code-review-assistant/SKILL.md` and `code-review-assistant/references/code_review_rules.md` for the review checklist and output format.
 
 ## Layout
 - `SKILL.md`: Name, description, and quick-start guidance for the skill.
