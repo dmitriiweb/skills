@@ -13,8 +13,8 @@ Collection of skill definitions used by this workspace. Each skill lives in its 
 
 ## Layout
 - `SKILL.md`: Name, description, and quick-start guidance for the skill.
-- `references/`: Extra docs the skill relies on.
+- `references/`: Extra docs the skill relies on. (Optional)
+- `asssets/`: Contains static resources (Optional)
+- `scripts/`: Contains executable code that agents can run. Scripts should: python, bash, js (Optional)
 - `LICENSE`: Repository license.
 
-## Adding a new skill
-Create a new directory, add `SKILL.md` to describe the skill, and include any supporting docs under a `references/` subdirectory.
