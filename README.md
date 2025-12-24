@@ -8,6 +8,7 @@ Collection of skill definitions used by this workspace. Each skill lives in its 
 - `format-lint-assistant/`: Run the formatter and lint/mypy checks via `make format` and `make lint`, fixing issues in the required order. See `format-lint-assistant/SKILL.md` and `format-lint-assistant/references/linting_rules.md` for the workflow.
 - `uv-package-management-assistant/`: Manage Python dependencies and scripts exclusively with `uv`. See `uv-package-management-assistant/SKILL.md` and `uv-package-management-assistant/references/uv_rules.md` for commands and script metadata examples.
 - `pytest-testing-assistant/`: Write pytest tests as standalone functions (no test classes). See `pytest-testing-assistant/SKILL.md` and `pytest-testing-assistant/references/pytest_rules.md` for structure and naming rules.
+- `google-docstring-assistant/`: Write Python docstrings in Google style, covering sections, examples, and TODOs. See `google-docstring-assistant/SKILL.md` and `google-docstring-assistant/references/google_docstring_rules.md` for guidance and examples.
 - `code-review-assistant/`: Perform structured Python code reviews. See `code-review-assistant/SKILL.md` and `code-review-assistant/references/code_review_rules.md` for the review checklist and output format.
 
 ## Layout
