@@ -10,6 +10,7 @@ Collection of skill definitions used by this workspace. Each skill lives in its 
 - `pytest-testing-assistant/`: Write pytest tests as standalone functions (no test classes). See `pytest-testing-assistant/SKILL.md` and `pytest-testing-assistant/references/pytest_rules.md` for structure and naming rules.
 - `google-docstring-assistant/`: Write Python docstrings in Google style, covering sections, examples, and TODOs. See `google-docstring-assistant/SKILL.md` and `google-docstring-assistant/references/google_docstring_rules.md` for guidance and examples.
 - `code-review-assistant/`: Perform structured Python code reviews. See `code-review-assistant/SKILL.md` and `code-review-assistant/references/code_review_rules.md` for the review checklist and output format.
+- `agents-md-assistant/`: Draft an `AGENTS.md` by inspecting a project and filling the standard template. See `agents-md-assistant/SKILL.md` and `agents-md-assistant/references/agents_md_template.md` for guidance.
 
 ## Layout
 - `SKILL.md`: Name, description, and quick-start guidance for the skill.
